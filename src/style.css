@@ -1,0 +1,40 @@
+body {
+  color: white;
+  padding: 0 10%;
+}
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+:global(.red-text) {
+  color: red;
+  font-weight: bold;
+}
+:global(.container) {
+  width: auto;
+}
+:global(.green-text) {
+  color: #34E97C;
+}
+
+.image-image {
+  max-width: 50px;
+}
+
+.html-element {
+  max-width: 600px;
+}
+
+
+em {
+  font-weight: bold;
+}
+
+.keyword {
+  font-weight: bold;
+  font-style: italic;
+  color: #34E97C;
+}
